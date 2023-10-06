@@ -1,0 +1,15 @@
+.title{
+    font-size: 20px !important;
+    margin-bottom: 4rem !important;
+}
+
+.title h1{
+    font-size: 48px !important;
+    font-weight: 800;
+}
+.title p{
+    max-width: 800px !important;
+    margin: auto;
+    color: rgb(211, 216, 232) !important;
+    font-size: 24px;
+}

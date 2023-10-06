@@ -1,0 +1,88 @@
+*{
+    list-style: none;
+    text-decoration: none !important;
+
+}
+
+
+.part-1 img{
+    position: absolute;
+    top: -4rem;
+    left: 0;
+    z-index: -199;
+}
+
+.part-1 .text-part-1{
+    font-size: 20px;
+}
+
+.buttons{
+    line-height: 2;
+}
+
+.button{
+    background-image: linear-gradient(90deg,#F526B0,#8328EB);
+    padding: .5rem 1rem;
+    border-radius: 30px;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+.divider{
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+}
+
+.divider .line{
+    
+    width: 10%;
+    height: .5px;
+    background-color: #fff;
+    margin: 0 1rem;
+}
+
+.cards{
+    background-color: #11152C;
+    line-height: 2;
+    border: 1px solid rgb(31, 34, 60);
+    border-radius: 10px;    
+    position: relative;
+    padding: 1rem;
+    margin-bottom: 1rem;    
+    box-shadow: 0 0 10px rgba(0,0,0,.5);    
+    transition: all .3s ease-in-out;
+
+}
+
+.cards:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(0,0,0,.5);
+}
+
+.cards::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 50%;
+    transform: translateX(-50%);
+    height: .5%;
+    background-image: linear-gradient(90deg,#F526B0,#8328EB);
+    border-radius: 10px;
+    z-index: 1;
+    
+}
+
+
+
+
+
+.cards h2{
+    margin-bottom: 1rem !important;
+}
+
+.list-group li{
+    color: rgb(196, 196, 232) !important;
+    font-size: 20px;
+}

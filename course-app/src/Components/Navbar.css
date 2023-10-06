@@ -1,0 +1,9 @@
+*{
+    color: white !important;
+}
+
+.member{
+    background-color: #8244FF;
+    border-radius: 25px;
+    padding: 0 .5rem;
+}
